@@ -2,27 +2,35 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
 
-		<title>Jogo da velha</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+		<title> Jogo da velha</title>
 		<script src="jquery-2.2.1.js"></script>
 	</head>
 	<body>
 
 		<div id="pagina-inicial">
-			<table border="1">
+			<table>
 				<tbody>
 					<tr>
-						<td colspan="3" align="center">JOGO DA VELHA</td>
+						<td class="titulo" colspan="3" align="center">JOGO DA VELHA</td>
 					</tr>
 					<tr>
-						<td>
+						<td align="center">
 							<img src="imagens/jogador_1.png">
+							<br>
+							<input class="apelido" type="text" maxlength="10" style="text-transform: uppercase;">
 						</td>
-						<td>
+						<td align="center">
 							<img src="imagens/iniciar.png">
 						</td>
-						<td>
+						<td align="center">
 							<img src="imagens/jogador_2.png">
+							<br>
+							<input class="apelido" type="text" maxlength="10" style="text-transform: uppercase;">
 						</td>
 					</tr>
 				</tbody>
